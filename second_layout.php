@@ -40,9 +40,9 @@
                         </ul>
                         <form class="navbar-form navbar-right" role="search">
                             <div class="h-m-block">
-                            <div class="form-group s-form">
-                                <input id="s-input-h" type="text" class="form-control" placeholder="Поиск">
-                            </div>
+                                <div class="form-group s-form">
+                                    <input id="s-input-h" type="text" class="form-control" placeholder="Поиск">
+                                </div>
                                 <div class="form-group s-form">
                                     <button id="s-button" type="submit" class="btn btn-default"></button>
                                 </div>
@@ -112,16 +112,16 @@
                 <!--
                 <div class="carousel-caption">
                 -->
-                    <div class="container">
-                        <div class="col-xs-4">
-                            <p id="s-sec-1">СТРАХОВАНИЕ<br>ВАШЕГО</p>
-                            <p id="s-sec-2"><b>АВТОМОБИЛЯ</b></p>
-                            <span class="s-sec-3">КАСКО</span><span class="s-sec-4">Диагностическая карта</span>
-                            <span class="s-sec-5" >ОСАГО</span><span class="s-sec-4">Зеленые карты</span>
-                            <button id="b-more-info"><span>УЗНАТЬ ПОДРОБНОСТИ >>></span></button>
-                        </div>
+                <div class="container">
+                    <div class="col-xs-4">
+                        <p id="s-sec-1">СТРАХОВАНИЕ<br>ВАШЕГО</p>
+                        <p id="s-sec-2"><b>АВТОМОБИЛЯ</b></p>
+                        <span class="s-sec-3">КАСКО</span><span class="s-sec-4">Диагностическая карта</span>
+                        <span class="s-sec-5" >ОСАГО</span><span class="s-sec-4">Зеленые карты</span>
+                        <button id="b-more-info"><span>УЗНАТЬ ПОДРОБНОСТИ >>></span></button>
                     </div>
-                   <!-- </div>-->
+                </div>
+                <!-- </div>-->
             </div>
             <div class="item">
                 <div class="container">
@@ -151,6 +151,7 @@
 </section>
 <section id="main-content">
     <div class="container">
+        <!--
         <div id="buttons-m-c" style="padding: 30px;" class="row">
             <div  class="col-lg-3 t-elign-c">
                 <img id="b-f-b" src="image/b_people.png">
@@ -182,14 +183,35 @@
                 </div>
             </div>
         </div>
+        -->
         <div class="row">
-            <div id="cont-line" class="col-xs-11">
-                 
+            <div id="breadcrams" class="col-xs-12">
+                <ol class="breadcrumb layout">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Частным клиентам</a></li>
+                    <li class="active">Зеленая карта</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div id="cont-line-layout2" class="col-xs-11">
+
             </div>
         </div>
         <div class="row">
             <div  class="col-xs-11 center">
-                <div class="col-lg-8">
+                <div class="col-xs-8">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p style="color: rgb(52,52,52);font-size: 30px">PAGE TITLE</p>
+                        </div>
+                    </div>
+                    <div style="padding: 20px 0px;" class="row">
+                        <div class="col-lg-12">
+                            <img id="c-layout-i" src="image/image_layout2.png" alt="alt">
+                        </div>
+                    </div>
+
                     <table class="table-full">
                         <tr>
                             <td colspan="2">
@@ -252,8 +274,15 @@
                         </tr>
                     </table>
                 </div>
-                <div id="mult-bg" class="col-lg-4">
-                    
+                <div id="second_layout_menu" class="col-xs-4">
+                    <button id="layout_f_b">ПРОВЕРИТЬ СВОЙ ПОЛИС</button>
+                    <button id="layout-topmenu">ЧАСТНЫМ КЛИЕНТАМ</button>
+                    <ul id="layout_menu">
+                        <li>
+                            <a href="#">ЗЕЛЕНЫЕ КАРТЫ</a>
+                        </li>
+                    </ul>
+                    <button id="layout-bottommenu">КОРПОРАТИВНЫМ КЛИЕНТАМ</button>
                 </div>
             </div>
         </div>
@@ -275,7 +304,9 @@
     </div>
 </section>
 <!--News Section -->
+<!--
 <section>
+
     <div  style="min-height: 500px"  class="col-lg-5 col-lg-offset-1">
         <div class="col-xs-12">
             <p style="font-size: 30px">Новости</p>
@@ -303,16 +334,35 @@
         </div>
     </div>
 </section>
+-->
+
 <section>
     <div class="container">
+        <!--
         <div style="text-align: center;padding: 10px" class="col-xs-12">
             <img id="ou-clients" src="./image/clients.png" alt="alt">
         </div>
+        -->
+            <div style="padding: 20px" class="col-lg-12">
+                <div  class="col-lg-3 t-elign-c">
+                    <img id="b-f-b" src="image/b_people.png">
+                </div>
+                <div class="col-lg-3 t-elign-c">
+                    <button id="b-money" style="border: none;background-color: inherit"><p style="text-align: right;font-family: 'Century Gothic';font-weight: 600;font-size: 12px;margin-right: 25px;margin-bottom: 0px">ВОПРОС<br>СПЕЦИАЛИСТУ</p></button>
+                </div>
+                <div class="col-lg-3 t-elign-c">
+                    <button id="b-tool" style="border: none;background-color: inherit"><p style="text-align: right;font-family: 'Century Gothic';font-weight: 600;font-size: 12px;margin-right: 25px;margin-bottom: 0px">СТРАХОВОЙ<br>СЛУЧАЙ</p></button>
+                </div>
+                <div class="col-lg-3 t-elign-c">
+                    <button id="b-agent" style="border: none;background-color: inherit"><p style="text-align: right;font-family: 'Century Gothic';font-weight: 600;font-size: 12px;margin-right: 25px;margin-bottom: 0px">СВЯЗАТЬСЯ С<br>АГЕНТОМ</p></button>
+                </div>
+            </div>
     </div>
     <div id="orange-line" class="col-lg-12">
-        
+
     </div>
 </section>
+
 <section style="background: rgb(247,247,247)">
     <div class="container">
         <div style="padding: 40px" class="row">
@@ -376,7 +426,7 @@
         </div>
     </div>
     <div id="grey-line" class="col-lg-12">
-        
+
     </div>
     <div style="padding: 10px;text-align: center" class="col-lg-12">
         <img id="creatby" src="image/creatby.png" alt="alt">
